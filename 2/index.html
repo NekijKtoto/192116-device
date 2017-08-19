@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
     <title>Интернет-магазин Device</title>
     <base href="https://htmlacademy-htmlcss.github.io/192116-device/2/">
 </head>
@@ -41,8 +42,8 @@
     <main class="container">
       <h1 class="visually-hidden">Интернет-магазин Device</h1>
         <section class="sliders">
-          <div class="slider-1 slider-images">
-            <img src="http://placehold.it/350x450" width="350" height="450" alt="Палка для сэлфи">
+          <div class="slider-1">
+            <img class="slider-images" src="img/slider-1.jpg" width="384" height="486" alt="Палка для сэлфи">
               <div class="slider-description">
                   <h2>
                     Делай селфи,<br>
@@ -69,8 +70,8 @@
                   </table>
               </div>
           </div>
-          <div class="slider-2 slider-images">
-            <img src="http://placehold.it/350x450" width="350" height="450" alt="Фитнесс-Браслет">
+          <div class="slider-2">
+            <img class="slider-images" src="img/slider-2.jpg" width="345" height="485" alt="Фитнесс-Браслет">
               <div class="slider-description">
                   <h2>
                     Худеем<br>
@@ -90,8 +91,8 @@
                   </table>
               </div>
           </div>
-          <div class="slider-3 slider-images">
-            <img src="http://placehold.it/350x450" width="350" height="450" alt="Квадрокоптер">
+          <div class="slider-3">
+            <img class="slider-images" src="img/slider-3.jpg" width="526" height="334" alt="Квадрокоптер">
               <div class="slider-description">
                   <h2>
                     Порхает как бабочка,<br>
@@ -120,40 +121,34 @@
             <ul class="popular-list">
               <li class="popular-link">
                 <a href="virtual-reality.html">
-                  <img src="http://placehold.it/100x100" width="100" height="100" alt="Виртуальная реальность">
                     Виртуальная реальность
                 </a>
               </li>
               <li class="popular-link">
                 <a href="selfie-monopod.html">
-                  <img src="http://placehold.it/100x100" width="100" height="100" alt="Моноподы для селфи">
                     Моноподы для селфи
                 </a>
               </li>
               <li class="popular-link">
                 <a  href="action-camera.html">
-                  <img src="http://placehold.it/100x100" width="100" height="100" alt="Экшн-камеры">
                     Экшн-камеры
                 </a>
               </li>
               <li class="popular-link">
                 <a href="fitness-bracelet.html">
-                  <img src="http://placehold.it/100x100" width="100" height="100" alt="Фитнесс-браслеты">
                     Фитнесс-браслеты
                 </a>
               </li>
               <li class="popular-link">
                 <a href="smart-clock.html">
-                  <img src="http://placehold.it/100x100" width="100" height="100" alt="Умные часы">
                     Умные часы
                 </a>
               </li>
               <li class="popular-link">
                 <a href="quadrupter.html">
-                  <img src="http://placehold.it/100x100" width="100" height="100" alt="Квадрокоптеры">
                     Квадрокоптеры
                 </a>
-              <li>
+              </li>
             </ul>
         </section>
         <section class="services">
@@ -185,23 +180,23 @@
           <h2 class="visually-hidden">Партнеры</h2>
             <ul class="brands-list">
               <li>
-                <a>
-                  <img src="http://placehold.it/200x100" width="200" height="100" alt="DJI">
+                <a href="https://www.dji.com">
+                  <img src="img/logo-1.jpg" width="260" height="100" alt="DJI">
                 </a>
               </li>
               <li>
-                <a>
-                  <img src="http://placehold.it/200x100" width="200" height="100" alt="SP Gadgets">
+                <a href="http://www.sp-gadgets.com">
+                  <img src="img/logo-2.jpg" width="260" height="100" alt="SP Gadgets">
                 </a>
               </li>
               <li>
-                <a>
-                  <img src="http://placehold.it/200x100" width="200" height="100" alt="GO Pro">
+                <a href="https://gopro.com">
+                  <img src="img/logo-3.jpg" width="260" height="100" alt="GO Pro">
                 </a>
               </li>
               <li>
-                <a>
-                  <img src="http://placehold.it/200x100" width="200" height="100" alt="Vive">
+                <a href="https://www.vive.com">
+                  <img src="img/logo-4.jpg" width="260" height="100" alt="Vive">
                 </a>
               </li>
             </ul>
@@ -235,7 +230,7 @@
               работоспособность покупки. Всякое бывает.
             </p>
             <a class="yandex-map" href="https://yandex.ru/maps/">
-              <img src="http://placehold.it/500x200" alt="yandex-map" width="500" height="200">
+              <img src="img/map.jpg" alt="yandex-map" width="560" height="222">
             </a>
             <a class="btn" href="contact-us.html">Напишите нам</a>
           </div>
@@ -246,9 +241,9 @@
         <a class="footer-logo">
           DEVICE
         </a>
-        <p>
+        <address>
           г. Москва, ул. Строителей, 15
-        </p>
+        </address>
       </div>
       <div class="footer-center">
         <ul class="footer-navigation-links">
@@ -268,12 +263,12 @@
           <li><a class="footer-сompare" href="#">Сравнить</a></li>
           <li><a class="footer-cart" href="#">Корзина</a></li>
         </ul>
-        <div class="phone">
+        <p class="phone">
           <a href="tel:7-495-95-95">Тел.: +7 (495) 495-95-95</a>
-        </div>
+        </p>
         <div class="copyright">
           <a href="https://htmlacademy.ru">
-            <img src="http://placehold.it/40x40" width="40" height="40" alt="HTML Academy">
+            <img src="img/logo-html.svg" width="40" height="40" alt="HTML Academy">
           </a>
         </div>
       </div>
